@@ -1,0 +1,38 @@
+{
+ "licence": "Singapore Open Data Licence v1.0, https://data.gov.sg/open-data-licence",
+ "retrieved": "2026-11-11",
+ "datasets": {
+  "va_per_worker_chained_annual": {
+   "datasetId": "d_43c4c89b056bc3b3959e4cf6771c2898",
+   "name": "Value Added Per Worker In Chained (2015) Dollars, By Industry (SSIC 2020), Annual",
+   "managedBy": "Singapore Department of Statistics",
+   "lastUpdatedAt": "2026-08-11T00:00:00+08:00",
+   "page": "https://data.gov.sg/datasets/d_43c4c89b056bc3b3959e4cf6771c2898/view",
+   "sha256": "a1397c75264a966b11daadb268e6624cd6e888891dec2af46128fa9f8520fd19"
+  },
+  "va_per_hour_chained_annual": {
+   "datasetId": "d_c1fa91e0dd1a1960d5086a28ede16eea",
+   "name": "Value Added Per Actual Hour Worked In Chained (2015) Dollars By Industry, Annual",
+   "managedBy": "Singapore Department of Statistics",
+   "lastUpdatedAt": "2026-08-11T00:00:00+08:00",
+   "page": "https://data.gov.sg/datasets/d_c1fa91e0dd1a1960d5086a28ede16eea/view",
+   "sha256": "50d64b7ae1aaea5383cb45221611c6364cf4c7d7663a5ca6f59dc32f1a8e5028"
+  },
+  "contracts_progress_annual": {
+   "datasetId": "d_cfda05718261fe933db5e14c2ca2d432",
+   "name": "Contracts Awarded And Progress Payments Certified By Sector And Development Type, Annual",
+   "managedBy": "Singapore Department of Statistics",
+   "lastUpdatedAt": "2026-10-08T23:00:51+08:00",
+   "page": "https://data.gov.sg/datasets/d_cfda05718261fe933db5e14c2ca2d432/view",
+   "sha256": "33893ec8b7bfacb8c3732e8923088d3f2b1ac0865fc3c4fcbea271fc10efc9c4"
+  },
+  "cmp_work_permit": {
+   "datasetId": "d_4fb775d3cc311989261fae4ad22dde09",
+   "name": "Number of Foreign Domestic Workers and Construction, Marine, Process Work Permit Holders",
+   "managedBy": "Ministry of Manpower",
+   "lastUpdatedAt": "2024-06-06T14:35:40+08:00",
+   "page": "https://data.gov.sg/datasets/d_4fb775d3cc311989261fae4ad22dde09/view",
+   "sha256": "074d192249477989561f2584b9bc2d7f9e2fd6e7f4777dc412985628c66bd622"
+  }
+ }
+}

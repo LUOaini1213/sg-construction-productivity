@@ -1,0 +1,37 @@
+{
+  "note": "Illustrative model of one hypothetical residential block. kind=assumption means a labelled assumption chosen by the author (not calibrated to any project) and swept over [low, high]; kind=cited means the bound comes from data/bca_figures.json. Factory (off-site) labour is outside the model.",
+  "monte_carlo": {"samples": 2000, "seed": 20261111, "distribution": "triangular(low, value, high) for every assumption, independently"},
+  "params": {
+    "floors":                    {"value": 16,   "low": 10,   "high": 30,   "unit": "storeys", "kind": "assumption", "note": "typical-floor storeys above the podium/substructure"},
+    "gfa_per_floor":             {"value": 650,  "low": 400,  "high": 1000, "unit": "m2", "kind": "assumption", "note": "typical-floor gross floor area"},
+    "conv_md_per_m2":            {"value": 2.0,  "low": 1.2,  "high": 3.0,  "unit": "site man-days per m2 GFA", "kind": "assumption", "note": "conventional cast-in-situ site labour, whole building"},
+    "share_substructure":        {"value": 0.20, "low": 0.12, "high": 0.28, "unit": "fraction of conventional site labour", "kind": "assumption", "note": "substructure, podium and external works; unchanged by any method in this model"},
+    "share_structure":           {"value": 0.35, "low": 0.25, "high": 0.45, "unit": "fraction", "kind": "assumption", "note": "superstructure frame; architectural share takes the remainder"},
+    "share_mep":                 {"value": 0.15, "low": 0.10, "high": 0.20, "unit": "fraction", "kind": "assumption", "note": "MEP installation"},
+    "precast_structure_labour_cut": {"value": 0.35, "low": 0.20, "high": 0.50, "unit": "fraction of structure site labour removed", "kind": "assumption", "note": "precast frame vs cast-in-situ"},
+    "prefab_mep_labour_cut":     {"value": 0.40, "low": 0.20, "high": 0.60, "unit": "fraction of MEP site labour removed", "kind": "assumption", "note": "prefabricated MEP modules"},
+    "ppvc_structure_labour_cut": {"value": 0.55, "low": 0.40, "high": 0.70, "unit": "fraction", "kind": "assumption", "note": "PPVC modules replace most in-situ frame work"},
+    "ppvc_mep_labour_cut":       {"value": 0.50, "low": 0.30, "high": 0.70, "unit": "fraction", "kind": "assumption", "note": "MEP fitted in the factory, connected on site"},
+    "ppvc_arch_labour_cut":      {"value": 0.65, "low": 0.50, "high": 0.80, "unit": "fraction", "kind": "assumption", "note": "finishes done in the factory"},
+    "modules_per_floor":         {"value": 16,   "low": 10,   "high": 24,   "unit": "modules", "kind": "assumption", "note": ""},
+    "install_md_per_module":     {"value": 6,    "low": 3,    "high": 10,   "unit": "site man-days per module", "kind": "assumption", "note": "lifting, fixing, grouting crew time"},
+    "conv_structure_days":       {"value": 7,    "low": 5,    "high": 10,   "unit": "days per floor", "kind": "assumption", "note": "in-situ structural floor cycle"},
+    "conv_mep_days":             {"value": 6,    "low": 4,    "high": 8,    "unit": "days per floor", "kind": "assumption", "note": "MEP rough-in per floor"},
+    "conv_arch_days":            {"value": 8,    "low": 5,    "high": 12,   "unit": "days per floor", "kind": "assumption", "note": "masonry, plaster, tiling, fittings per floor"},
+    "precast_cycle_cut":         {"value": 0.30, "low": 0.15, "high": 0.40, "unit": "fraction of structural floor cycle removed", "kind": "assumption", "note": ""},
+    "prefab_mep_time_cut":       {"value": 0.40, "low": 0.20, "high": 0.60, "unit": "fraction of MEP floor time removed", "kind": "assumption", "note": "high end equals the BCA 'up to 60%' figure", "cite": "prefab_mep_time_upper"},
+    "crane_modules_per_day":     {"value": 8,    "low": 5,    "high": 12,   "unit": "modules per day", "kind": "assumption", "note": "site lifting rate"},
+    "factory_modules_per_day":   {"value": 4,    "low": 2,    "high": 8,    "unit": "modules per day", "kind": "assumption", "note": "off-site production rate"},
+    "factory_lead_days":         {"value": 60,   "low": 20,   "high": 120,  "unit": "days", "kind": "assumption", "note": "factory starts this long before the first module lift"},
+    "ppvc_connect_days":         {"value": 3,    "low": 2,    "high": 5,    "unit": "days per floor", "kind": "assumption", "note": "MEP and joint connections"},
+    "ppvc_finish_days":          {"value": 5,    "low": 3,    "high": 8,    "unit": "days per floor", "kind": "assumption", "note": "on-site finishing, sealing, testing"},
+    "trade_buffer_days":         {"value": 1,    "low": 0,    "high": 3,    "unit": "days", "kind": "assumption", "note": "minimum gap between successive trades on one floor"},
+    "substructure_days":         {"value": 90,   "low": 60,   "high": 150,  "unit": "days", "kind": "assumption", "note": "same for every method"},
+    "tail_days":                 {"value": 60,   "low": 30,   "high": 90,   "unit": "days", "kind": "assumption", "note": "external works, testing, inspection after the last floor; same for every method"}
+  },
+  "checks_against_cited": [
+    {"metric": "ppvc_manpower_saving_pct", "cited_low": "ppvc_case_manpower", "cited_high": "ppvc_saving_upper"},
+    {"metric": "ppvc_time_per_floor_cut_pct",   "cited_high": "ppvc_floor_time_upper"},
+    {"metric": "ppvc_duration_saving_months",   "cited_low": "ppvc_time_saving_months_low", "cited_high": "ppvc_time_saving_months_high"}
+  ]
+}

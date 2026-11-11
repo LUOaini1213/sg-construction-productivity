@@ -1,0 +1,109 @@
+{
+  "note": "Single figures quoted from BCA web pages and media releases, with citation. No tables were copied. Retrieved 2026-11-11.",
+  "figures": [
+    {
+      "id": "dfma_adoption_2019",
+      "value": 31, "unit": "%", "ref_year": 2019, "kind": "adoption",
+      "what": "DfMA adoption rate, built environment sector, as of 2019 (basis not stated in the release)",
+      "url": "https://www1.bca.gov.sg/resources/newsroom/good-progress-made-in-key-transformation-focus-areas-for-the-built-environment-sector-supported-by-a-skilled-and-competent-local-core/",
+      "location": "BCA media release, 4 March 2020, DfMA paragraph",
+      "access": "direct"
+    },
+    {
+      "id": "dfma_target_2020",
+      "value": 40, "unit": "%", "ref_year": 2020, "kind": "target",
+      "what": "Construction ITM DfMA adoption target for 2020 (release says the sector is on track to reach it 'this year')",
+      "url": "https://www1.bca.gov.sg/resources/newsroom/good-progress-made-in-key-transformation-focus-areas-for-the-built-environment-sector-supported-by-a-skilled-and-competent-local-core/",
+      "location": "BCA media release, 4 March 2020, DfMA paragraph",
+      "access": "direct"
+    },
+    {
+      "id": "dfma_adoption_2022_release",
+      "value": 44, "unit": "%", "ref_year": 2022, "kind": "adoption",
+      "what": "DfMA adoption rate by GFA described as 'today' in the BE ITM release of 6 September 2022 (the reference year is not stated; 2022 is the release year)",
+      "url": "https://www1.bca.gov.sg/resources/newsroom/built-environment-industry-transformation-map-to-facilitate-integration-and-collaborative-breakthrough-across-the-entire-value-chain/",
+      "location": "BCA media release, 6 September 2022, DfMA paragraph",
+      "access": "direct"
+    },
+    {
+      "id": "dfma_adoption_2023",
+      "value": 61, "unit": "%", "ref_year": 2023, "kind": "adoption",
+      "what": "DfMA adoption rate for all new developments by GFA, 2023 ('about 61%')",
+      "url": "https://www1.bca.gov.sg/docs/default-source/docs-corp-news-and-publications/media-releases/bca-media-factsheet---mnd-cos-2025.pdf",
+      "location": "BCA media factsheets, MND Committee of Supply 2025, Annex A, page 3, para 5",
+      "access": "Wayback Machine snapshot 20260208015325 (live URL returned 404 on 2026-11-11)"
+    },
+    {
+      "id": "dfma_adoption_2024",
+      "value": 68, "unit": "%", "ref_year": 2024, "kind": "adoption",
+      "what": "DfMA adoption rate for all new developments by GFA, 2024",
+      "url": "https://www1.bca.gov.sg/docs/default-source/docs-corp-news-and-publications/media-releases/bca-media-factsheet---mnd-cos-2025.pdf",
+      "location": "BCA media factsheets, MND Committee of Supply 2025, Annex A, page 3, para 5",
+      "access": "Wayback Machine snapshot 20260208015325 (live URL returned 404 on 2026-11-11)"
+    },
+    {
+      "id": "dfma_target_2025",
+      "value": 70, "unit": "%", "ref_year": 2025, "kind": "target",
+      "what": "BE ITM target: 70% DfMA adoption for all new developments by GFA by 2025",
+      "url": "https://www1.bca.gov.sg/docs/default-source/docs-corp-news-and-publications/media-releases/bca-media-factsheet---mnd-cos-2025.pdf",
+      "location": "BCA media factsheets, MND Committee of Supply 2025, Annex A, page 3, para 5",
+      "access": "Wayback Machine snapshot 20260208015325 (live URL returned 404 on 2026-11-11)"
+    },
+    {
+      "id": "ppvc_saving_upper",
+      "value": 40, "unit": "%", "ref_year": null, "kind": "benefit_upper_bound",
+      "what": "PPVC can raise productivity by up to 40% in terms of manpower and time savings, depending on project complexity",
+      "url": "https://www1.bca.gov.sg/growth-and-transformation/productivity/design-for-manufacturing-and-assembly-dfma/prefabricated-prefinished-volumetric-construction-ppvc/",
+      "location": "BCA PPVC page, 'Why use PPVC' (page dated 1 October 2026)",
+      "access": "direct"
+    },
+    {
+      "id": "ppvc_floor_time_upper",
+      "value": 30, "unit": "%", "ref_year": null, "kind": "benefit_upper_bound",
+      "what": "PPVC can reduce total construction time per floor by up to 30%, including architectural works",
+      "url": "https://www1.bca.gov.sg/growth-and-transformation/productivity/design-for-manufacturing-and-assembly-dfma/prefabricated-prefinished-volumetric-construction-ppvc/",
+      "location": "BCA PPVC page, 'Why use PPVC' (page dated 1 October 2026)",
+      "access": "direct"
+    },
+    {
+      "id": "ppvc_time_saving_months_low",
+      "value": 1, "unit": "months", "ref_year": null, "kind": "benefit_typical",
+      "what": "On average PPVC projects achieved 1 to 2 months of time savings over conventional methods (lower end)",
+      "url": "https://www1.bca.gov.sg/growth-and-transformation/productivity/design-for-manufacturing-and-assembly-dfma/prefabricated-prefinished-volumetric-construction-ppvc/",
+      "location": "BCA PPVC page (page dated 1 October 2026)",
+      "access": "direct"
+    },
+    {
+      "id": "ppvc_time_saving_months_high",
+      "value": 2, "unit": "months", "ref_year": null, "kind": "benefit_typical",
+      "what": "On average PPVC projects achieved 1 to 2 months of time savings over conventional methods (upper end)",
+      "url": "https://www1.bca.gov.sg/growth-and-transformation/productivity/design-for-manufacturing-and-assembly-dfma/prefabricated-prefinished-volumetric-construction-ppvc/",
+      "location": "BCA PPVC page (page dated 1 October 2026)",
+      "access": "direct"
+    },
+    {
+      "id": "ppvc_case_manpower",
+      "value": 20, "unit": "%", "ref_year": null, "kind": "benefit_case",
+      "what": "PPVC case study on the BCA page: up to 20% manpower savings at project level (with up to 4 months time savings)",
+      "url": "https://www1.bca.gov.sg/growth-and-transformation/productivity/design-for-manufacturing-and-assembly-dfma/prefabricated-prefinished-volumetric-construction-ppvc/",
+      "location": "BCA PPVC page, case study section (page dated 1 October 2026)",
+      "access": "direct"
+    },
+    {
+      "id": "prefab_mep_time_upper",
+      "value": 60, "unit": "%", "ref_year": null, "kind": "benefit_upper_bound",
+      "what": "Prefab MEP systems can achieve time savings of up to 60%",
+      "url": "https://www1.bca.gov.sg/growth-and-transformation/productivity/design-for-manufacturing-and-assembly-dfma/prefabricated-mechanical-electrical-and-plumbing-mep-system/",
+      "location": "BCA Prefab MEP page (page dated 1 October 2026)",
+      "access": "direct"
+    },
+    {
+      "id": "met_time_upper",
+      "value": 35, "unit": "%", "ref_year": null, "kind": "benefit_upper_bound",
+      "what": "Mass engineered timber can achieve up to 35% time savings at project level",
+      "url": "https://www1.bca.gov.sg/growth-and-transformation/productivity/design-for-manufacturing-and-assembly-dfma/mass-engineered-timber-met/",
+      "location": "BCA Mass Engineered Timber page (page dated 16 March 2026)",
+      "access": "direct"
+    }
+  ]
+}

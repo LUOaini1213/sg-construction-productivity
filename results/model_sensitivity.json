@@ -1,0 +1,645 @@
+{
+ "rows": [
+  {
+   "at_high": 38.865385,
+   "at_low": 38.865385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "floors",
+   "swing": 0.0
+  },
+  {
+   "at_high": 98.0,
+   "at_low": 38.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "floors",
+   "swing": 60.0
+  },
+  {
+   "at_high": 1.635735,
+   "at_low": 1.635735,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "floors",
+   "swing": 0.0
+  },
+  {
+   "at_high": 41.45,
+   "at_low": 34.25,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "gfa_per_floor",
+   "swing": 7.2
+  },
+  {
+   "at_high": 56.0,
+   "at_low": 56.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "gfa_per_floor",
+   "swing": 0.0
+  },
+  {
+   "at_high": 1.707942,
+   "at_low": 1.520913,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "gfa_per_floor",
+   "swing": 0.187029
+  },
+  {
+   "at_high": 41.326923,
+   "at_low": 33.942308,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "conv_md_per_m2",
+   "swing": 7.384615
+  },
+  {
+   "at_high": 56.0,
+   "at_low": 56.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "conv_md_per_m2",
+   "swing": 0.0
+  },
+  {
+   "at_high": 1.704359,
+   "at_low": 1.513828,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "conv_md_per_m2",
+   "swing": 0.190531
+  },
+  {
+   "at_high": 33.665385,
+   "at_low": 44.065385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "share_substructure",
+   "swing": 10.4
+  },
+  {
+   "at_high": 56.0,
+   "at_low": 56.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "share_substructure",
+   "swing": 0.0
+  },
+  {
+   "at_high": 1.507509,
+   "at_low": 1.787802,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "share_substructure",
+   "swing": 0.280293
+  },
+  {
+   "at_high": 37.865385,
+   "at_low": 39.865385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "share_structure",
+   "swing": 2.0
+  },
+  {
+   "at_high": 56.0,
+   "at_low": 56.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "share_structure",
+   "swing": 0.0
+  },
+  {
+   "at_high": 1.609409,
+   "at_low": 1.662936,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "share_structure",
+   "swing": 0.053527
+  },
+  {
+   "at_high": 38.115385,
+   "at_low": 39.615385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "share_mep",
+   "swing": 1.5
+  },
+  {
+   "at_high": 56.0,
+   "at_low": 56.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "share_mep",
+   "swing": 0.0
+  },
+  {
+   "at_high": 1.615911,
+   "at_low": 1.656051,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "share_mep",
+   "swing": 0.04014
+  },
+  {
+   "at_high": 38.865385,
+   "at_low": 38.865385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "precast_structure_labour_cut",
+   "swing": 0.0
+  },
+  {
+   "at_high": 56.0,
+   "at_low": 56.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "precast_structure_labour_cut",
+   "swing": 0.0
+  },
+  {
+   "at_high": 1.635735,
+   "at_low": 1.635735,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "precast_structure_labour_cut",
+   "swing": 0.0
+  },
+  {
+   "at_high": 38.865385,
+   "at_low": 38.865385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "prefab_mep_labour_cut",
+   "swing": 0.0
+  },
+  {
+   "at_high": 56.0,
+   "at_low": 56.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "prefab_mep_labour_cut",
+   "swing": 0.0
+  },
+  {
+   "at_high": 1.635735,
+   "at_low": 1.635735,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "prefab_mep_labour_cut",
+   "swing": 0.0
+  },
+  {
+   "at_high": 44.115385,
+   "at_low": 33.615385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "ppvc_structure_labour_cut",
+   "swing": 10.5
+  },
+  {
+   "at_high": 56.0,
+   "at_low": 56.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "ppvc_structure_labour_cut",
+   "swing": 0.0
+  },
+  {
+   "at_high": 1.789401,
+   "at_low": 1.506373,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "ppvc_structure_labour_cut",
+   "swing": 0.283028
+  },
+  {
+   "at_high": 41.865385,
+   "at_low": 35.865385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "ppvc_mep_labour_cut",
+   "swing": 6.0
+  },
+  {
+   "at_high": 56.0,
+   "at_low": 56.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "ppvc_mep_labour_cut",
+   "swing": 0.0
+  },
+  {
+   "at_high": 1.720146,
+   "at_low": 1.55922,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "ppvc_mep_labour_cut",
+   "swing": 0.160925
+  },
+  {
+   "at_high": 43.365385,
+   "at_low": 34.365385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "ppvc_arch_labour_cut",
+   "swing": 9.0
+  },
+  {
+   "at_high": 56.0,
+   "at_low": 56.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "ppvc_arch_labour_cut",
+   "swing": 0.0
+  },
+  {
+   "at_high": 1.765705,
+   "at_low": 1.523586,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "ppvc_arch_labour_cut",
+   "swing": 0.242118
+  },
+  {
+   "at_high": 35.173077,
+   "at_low": 41.634615,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "modules_per_floor",
+   "swing": 6.461538
+  },
+  {
+   "at_high": 55.0,
+   "at_low": 56.75,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "modules_per_floor",
+   "swing": 1.75
+  },
+  {
+   "at_high": 1.542569,
+   "at_low": 1.713344,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "modules_per_floor",
+   "swing": 0.170775
+  },
+  {
+   "at_high": 33.942308,
+   "at_low": 42.557692,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "install_md_per_module",
+   "swing": 8.615385
+  },
+  {
+   "at_high": 56.0,
+   "at_low": 56.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "install_md_per_module",
+   "swing": 0.0
+  },
+  {
+   "at_high": 1.513828,
+   "at_low": 1.740877,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "install_md_per_module",
+   "swing": 0.227049
+  },
+  {
+   "at_high": 38.865385,
+   "at_low": 38.865385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "conv_structure_days",
+   "swing": 0.0
+  },
+  {
+   "at_high": 89.0,
+   "at_low": 54.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "conv_structure_days",
+   "swing": 35.0
+  },
+  {
+   "at_high": 1.635735,
+   "at_low": 1.635735,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "conv_structure_days",
+   "swing": 0.0
+  },
+  {
+   "at_high": 38.865385,
+   "at_low": 38.865385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "conv_mep_days",
+   "swing": 0.0
+  },
+  {
+   "at_high": 58.0,
+   "at_low": 54.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "conv_mep_days",
+   "swing": 4.0
+  },
+  {
+   "at_high": 1.635735,
+   "at_low": 1.635735,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "conv_mep_days",
+   "swing": 0.0
+  },
+  {
+   "at_high": 38.865385,
+   "at_low": 38.865385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "conv_arch_days",
+   "swing": 0.0
+  },
+  {
+   "at_high": 120.0,
+   "at_low": 38.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "conv_arch_days",
+   "swing": 82.0
+  },
+  {
+   "at_high": 1.635735,
+   "at_low": 1.635735,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "conv_arch_days",
+   "swing": 0.0
+  },
+  {
+   "at_high": 38.865385,
+   "at_low": 38.865385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "precast_cycle_cut",
+   "swing": 0.0
+  },
+  {
+   "at_high": 56.0,
+   "at_low": 56.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "precast_cycle_cut",
+   "swing": 0.0
+  },
+  {
+   "at_high": 1.635735,
+   "at_low": 1.635735,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "precast_cycle_cut",
+   "swing": 0.0
+  },
+  {
+   "at_high": 38.865385,
+   "at_low": 38.865385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "prefab_mep_time_cut",
+   "swing": 0.0
+  },
+  {
+   "at_high": 56.0,
+   "at_low": 56.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "prefab_mep_time_cut",
+   "swing": 0.0
+  },
+  {
+   "at_high": 1.635735,
+   "at_low": 1.635735,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "prefab_mep_time_cut",
+   "swing": 0.0
+  },
+  {
+   "at_high": 38.865385,
+   "at_low": 38.865385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "crane_modules_per_day",
+   "swing": 0.0
+  },
+  {
+   "at_high": 56.666667,
+   "at_low": 54.8,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "crane_modules_per_day",
+   "swing": 1.866667
+  },
+  {
+   "at_high": 1.635735,
+   "at_low": 1.635735,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "crane_modules_per_day",
+   "swing": 0.0
+  },
+  {
+   "at_high": 38.865385,
+   "at_low": 38.865385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "factory_modules_per_day",
+   "swing": 0.0
+  },
+  {
+   "at_high": 56.0,
+   "at_low": 56.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "factory_modules_per_day",
+   "swing": 0.0
+  },
+  {
+   "at_high": 1.635735,
+   "at_low": 1.635735,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "factory_modules_per_day",
+   "swing": 0.0
+  },
+  {
+   "at_high": 38.865385,
+   "at_low": 38.865385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "factory_lead_days",
+   "swing": 0.0
+  },
+  {
+   "at_high": 56.0,
+   "at_low": 56.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "factory_lead_days",
+   "swing": 0.0
+  },
+  {
+   "at_high": 1.635735,
+   "at_low": 1.635735,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "factory_lead_days",
+   "swing": 0.0
+  },
+  {
+   "at_high": 38.865385,
+   "at_low": 38.865385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "ppvc_connect_days",
+   "swing": 0.0
+  },
+  {
+   "at_high": 54.0,
+   "at_low": 57.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "ppvc_connect_days",
+   "swing": 3.0
+  },
+  {
+   "at_high": 1.635735,
+   "at_low": 1.635735,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "ppvc_connect_days",
+   "swing": 0.0
+  },
+  {
+   "at_high": 38.865385,
+   "at_low": 38.865385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "ppvc_finish_days",
+   "swing": 0.0
+  },
+  {
+   "at_high": 8.0,
+   "at_low": 88.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "ppvc_finish_days",
+   "swing": 80.0
+  },
+  {
+   "at_high": 1.635735,
+   "at_low": 1.635735,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "ppvc_finish_days",
+   "swing": 0.0
+  },
+  {
+   "at_high": 38.865385,
+   "at_low": 38.865385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "trade_buffer_days",
+   "swing": 0.0
+  },
+  {
+   "at_high": 56.0,
+   "at_low": 56.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "trade_buffer_days",
+   "swing": 0.0
+  },
+  {
+   "at_high": 1.635735,
+   "at_low": 1.635735,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "trade_buffer_days",
+   "swing": 0.0
+  },
+  {
+   "at_high": 38.865385,
+   "at_low": 38.865385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "substructure_days",
+   "swing": 0.0
+  },
+  {
+   "at_high": 56.0,
+   "at_low": 56.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "substructure_days",
+   "swing": 0.0
+  },
+  {
+   "at_high": 1.635735,
+   "at_low": 1.635735,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "substructure_days",
+   "swing": 0.0
+  },
+  {
+   "at_high": 38.865385,
+   "at_low": 38.865385,
+   "base": 38.865385,
+   "metric": "manpower_saving_pct",
+   "param": "tail_days",
+   "swing": 0.0
+  },
+  {
+   "at_high": 56.0,
+   "at_low": 56.0,
+   "base": 56.0,
+   "metric": "duration_saving_days",
+   "param": "tail_days",
+   "swing": 0.0
+  },
+  {
+   "at_high": 1.635735,
+   "at_low": 1.635735,
+   "base": 1.635735,
+   "metric": "productivity_ratio",
+   "param": "tail_days",
+   "swing": 0.0
+  }
+ ],
+ "top3_by_swing": {
+  "duration_saving_days": [
+   "conv_arch_days",
+   "ppvc_finish_days",
+   "floors"
+  ],
+  "manpower_saving_pct": [
+   "ppvc_structure_labour_cut",
+   "share_substructure",
+   "ppvc_arch_labour_cut"
+  ],
+  "productivity_ratio": [
+   "ppvc_structure_labour_cut",
+   "share_substructure",
+   "ppvc_arch_labour_cut"
+  ]
+ }
+}

@@ -1,0 +1,195 @@
+{
+ "final": {
+  "date": "2026-11-11",
+  "killed": 31,
+  "survivors": [],
+  "total": 31
+ },
+ "final_detail": [
+  {
+   "file": "src/scp/data.py",
+   "killed": true,
+   "mutant": "data_strip_na"
+  },
+  {
+   "file": "src/scp/data.py",
+   "killed": true,
+   "mutant": "data_first_row_wins"
+  },
+  {
+   "file": "src/scp/data.py",
+   "killed": true,
+   "mutant": "data_wrong_permit_type"
+  },
+  {
+   "file": "src/scp/data.py",
+   "killed": true,
+   "mutant": "data_comma_strip"
+  },
+  {
+   "file": "src/scp/analysis.py",
+   "killed": true,
+   "mutant": "trend_cagr_exponent"
+  },
+  {
+   "file": "src/scp/analysis.py",
+   "killed": true,
+   "mutant": "trend_ci_index"
+  },
+  {
+   "file": "src/scp/analysis.py",
+   "killed": true,
+   "mutant": "trend_no_exclusion"
+  },
+  {
+   "file": "src/scp/analysis.py",
+   "killed": true,
+   "mutant": "trend_man_day_hours"
+  },
+  {
+   "file": "src/scp/analysis.py",
+   "killed": true,
+   "mutant": "trend_share_inverted"
+  },
+  {
+   "file": "src/scp/analysis.py",
+   "killed": true,
+   "mutant": "dfma_r_no_sqrt"
+  },
+  {
+   "file": "src/scp/analysis.py",
+   "killed": true,
+   "mutant": "dfma_building_share_payments"
+  },
+  {
+   "file": "src/scp/model.py",
+   "killed": true,
+   "mutant": "lob_no_buffer"
+  },
+  {
+   "file": "src/scp/model.py",
+   "killed": true,
+   "mutant": "lob_no_floor_sequence"
+  },
+  {
+   "file": "src/scp/model.py",
+   "killed": true,
+   "mutant": "lob_ignore_ready"
+  },
+  {
+   "file": "src/scp/model.py",
+   "killed": true,
+   "mutant": "lob_end_wrong_floor"
+  },
+  {
+   "file": "src/scp/model.py",
+   "killed": true,
+   "mutant": "model_arch_share"
+  },
+  {
+   "file": "src/scp/model.py",
+   "killed": true,
+   "mutant": "model_precast_cycle"
+  },
+  {
+   "file": "src/scp/model.py",
+   "killed": true,
+   "mutant": "model_install_labour_dropped"
+  },
+  {
+   "file": "src/scp/model.py",
+   "killed": true,
+   "mutant": "model_factory_rate"
+  },
+  {
+   "file": "src/scp/model.py",
+   "killed": true,
+   "mutant": "model_tail_dropped"
+  },
+  {
+   "file": "src/scp/model.py",
+   "killed": true,
+   "mutant": "model_saving_sign"
+  },
+  {
+   "file": "src/scp/model.py",
+   "killed": true,
+   "mutant": "model_months"
+  },
+  {
+   "file": "src/scp/model.py",
+   "killed": true,
+   "mutant": "model_sens_same_bound"
+  },
+  {
+   "file": "src/scp/model.py",
+   "killed": true,
+   "mutant": "model_mc_mode"
+  },
+  {
+   "file": "src/scp/model.py",
+   "killed": true,
+   "mutant": "model_quantile"
+  },
+  {
+   "file": "src/scp/results.py",
+   "killed": true,
+   "mutant": "results_check_bounds"
+  },
+  {
+   "file": "src/scp/results.py",
+   "killed": true,
+   "mutant": "results_rounding"
+  },
+  {
+   "file": "src/scp/dashboard.py",
+   "killed": true,
+   "mutant": "dash_kpi_wrong_value"
+  },
+  {
+   "file": "src/scp/dashboard.py",
+   "killed": true,
+   "mutant": "dash_series_swapped"
+  },
+  {
+   "file": "src/scp/dashboard.py",
+   "killed": true,
+   "mutant": "dash_tornado_sign"
+  },
+  {
+   "file": "src/scp/readme.py",
+   "killed": true,
+   "mutant": "readme_bool"
+  }
+ ],
+ "first_run": {
+  "date": "2026-11-11",
+  "killed": 30,
+  "survivors": [
+   "data_first_row_wins"
+  ],
+  "total": 31
+ },
+ "history": [
+  {
+   "date": "2026-11-11",
+   "killed": 30,
+   "survivors": [
+    "data_first_row_wins"
+   ],
+   "total": 31
+  },
+  {
+   "date": "2026-11-11",
+   "killed": 31,
+   "survivors": [],
+   "total": 31
+  },
+  {
+   "date": "2026-11-11",
+   "killed": 31,
+   "survivors": [],
+   "total": 31
+  }
+ ]
+}

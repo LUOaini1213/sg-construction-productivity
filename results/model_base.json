@@ -1,0 +1,99 @@
+{
+ "checks_against_cited": [
+  {
+   "cited_high": 40,
+   "cited_low": 20,
+   "metric": "ppvc_manpower_saving_pct",
+   "model": 38.865385,
+   "within_cited_range": true
+  },
+  {
+   "cited_high": 30,
+   "cited_low": null,
+   "metric": "ppvc_time_per_floor_cut_pct",
+   "model": 39.160839,
+   "within_cited_range": false
+  },
+  {
+   "cited_high": 2,
+   "cited_low": 1,
+   "metric": "ppvc_duration_saving_months",
+   "model": 1.839836,
+   "within_cited_range": true
+  }
+ ],
+ "scenarios": {
+  "conventional": {
+   "avg_site_headcount": 70.989761,
+   "bottleneck_trade": "arch",
+   "duration_days": 293.0,
+   "duration_saving_days": 0.0,
+   "duration_saving_months": 0.0,
+   "factory_days_per_floor": null,
+   "gfa_m2": 10400,
+   "manpower_saving_pct": 0.0,
+   "productivity_ratio": 1.0,
+   "scenario": "conventional",
+   "site_man_days": 20800.0,
+   "site_productivity_m2_per_md": 0.5,
+   "superstructure_days": 143.0,
+   "takt_days": 8,
+   "time_per_floor_cut_pct": 0.0,
+   "time_per_floor_days": 8.9375
+  },
+  "ppvc": {
+   "avg_site_headcount": 53.654008,
+   "bottleneck_trade": "finishing",
+   "duration_days": 237.0,
+   "duration_saving_days": 56.0,
+   "duration_saving_months": 1.839836,
+   "factory_days_per_floor": 4.0,
+   "gfa_m2": 10400,
+   "manpower_saving_pct": 38.865385,
+   "productivity_ratio": 1.635735,
+   "scenario": "ppvc",
+   "site_man_days": 12716.0,
+   "site_productivity_m2_per_md": 0.817867,
+   "superstructure_days": 87.0,
+   "takt_days": 5,
+   "time_per_floor_cut_pct": 39.160839,
+   "time_per_floor_days": 5.4375
+  },
+  "precast": {
+   "avg_site_headcount": 62.743211,
+   "bottleneck_trade": "arch",
+   "duration_days": 290.9,
+   "duration_saving_days": 2.1,
+   "duration_saving_months": 0.068994,
+   "factory_days_per_floor": null,
+   "gfa_m2": 10400,
+   "manpower_saving_pct": 12.25,
+   "productivity_ratio": 1.139601,
+   "scenario": "precast",
+   "site_man_days": 18252.0,
+   "site_productivity_m2_per_md": 0.569801,
+   "superstructure_days": 140.9,
+   "takt_days": 8,
+   "time_per_floor_cut_pct": 1.468531,
+   "time_per_floor_days": 8.80625
+  },
+  "precast_prefab_mep": {
+   "avg_site_headcount": 58.939341,
+   "bottleneck_trade": "arch",
+   "duration_days": 288.5,
+   "duration_saving_days": 4.5,
+   "duration_saving_months": 0.147844,
+   "factory_days_per_floor": null,
+   "gfa_m2": 10400,
+   "manpower_saving_pct": 18.25,
+   "productivity_ratio": 1.223242,
+   "scenario": "precast_prefab_mep",
+   "site_man_days": 17004.0,
+   "site_productivity_m2_per_md": 0.611621,
+   "superstructure_days": 138.5,
+   "takt_days": 8,
+   "time_per_floor_cut_pct": 3.146853,
+   "time_per_floor_days": 8.65625
+  }
+ }
+}
